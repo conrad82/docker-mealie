@@ -10,7 +10,7 @@ Running mealie from docker-compose - getting started with docker
     - If headless install (no keyboard/mouse/monitor), see headless raspberry pi guide: https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
 2. Connect to Raspberry Pi using keyboard/mouse or ssh
 3. Install git and docker-compose, and start docker
-Open up terminal, or via ssh:
+  - Open up terminal, or via ssh:
 ```
 sudo apt update
 sudo apt install git docker-compose
