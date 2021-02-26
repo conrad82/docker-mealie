@@ -25,12 +25,14 @@ git clone https://github.com/conrad82/docker-mealie.git
 cd docker-mealie
 sudo docker-compose up
 ```
-If you want it to run in the background (daemon), use command `sudo docker-compose up -d` instead
+If you want it to run in the background (daemon), use command `sudo docker-compose up -d` instead.
+
 6. Test the service
-  1. Open up browser
-  2. Go to http://*raspberry-pi-ip*:9000
+  - Open up browser
+  - Go to http://*raspberry-pi-ip*:9000
      - If you are running locally, you can also use address http://localhost:9000
-  
+7. Finished
+
 ***
 ### Info
 - To run via ssh, you must find the raspberry pi ip address 
