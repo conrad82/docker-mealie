@@ -1,0 +1,13 @@
+version: "3.1"
+services:
+  mealie:
+    image: hkotel/mealie:latest
+    restart: unless-stopped
+    ports:
+      - 9000:80
+    environment:
+      db_type: sqlite
+      TZ: Europe/Oslo
+    volumes:
+      - ./mealie/data/:/app/data
+      
