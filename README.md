@@ -31,7 +31,7 @@ If you want it to run in the background (daemon), use command `sudo docker-compo
   - Open up browser
   - Go to http://*raspberry-pi-ip*:9000
      - If you are running locally, you can also use address http://localhost:9000
-7. Finished
+7. Finished! Documentation for Mealie can be found here: https://hay-kot.github.io/mealie/
 
 ***
 ### Info
